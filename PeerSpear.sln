@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBox", "TestBox\TestBox.csproj", "{70981142-2AC9-494E-9D48-3819F814A79B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{EB248308-DED7-4343-97C2-7D02E9016335}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +13,5 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{70981142-2AC9-494E-9D48-3819F814A79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70981142-2AC9-494E-9D48-3819F814A79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70981142-2AC9-494E-9D48-3819F814A79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70981142-2AC9-494E-9D48-3819F814A79B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
